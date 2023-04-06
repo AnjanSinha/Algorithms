@@ -4,7 +4,7 @@
 
 count = 0
 def recursion():
-    global count
+    global count #Declaring the count in the loop as a global variable
     print(count)
     if count>3:
         return "Done"
